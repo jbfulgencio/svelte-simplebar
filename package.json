@@ -1,12 +1,12 @@
 {
-  "name": "@woden/svelte-simplebar",
+  "name": "@jbfulgencio/svelte-simplebar",
   "version": "1.0.0",
   "description": "A Svelte wrapper for SimpleBar",
   "main": "lib/index.js",
   "svelte": "src/index.svelte",
   "module": "lib/index.mjs",
-  "repository": "https://github.com/Woden-app/svelte-simplebar.git",
-  "author": "Woden",
+  "repository": "https://github.com/jbfulgencio/svelte-simplebar.git",
+  "author": "João Batista Fulgêncio",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
@@ -28,5 +28,8 @@
   ],
   "keywords": [
     "svelte"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
